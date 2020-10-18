@@ -100,15 +100,15 @@ int main()
 	{
 		printf("\nsolution found\n");
 		for(int i=0;i<n;i++)
-	{
-		for(int j=0;j<n;j++)
 		{
-			printf("%d\t",G[i][j]);
+			for(int j=0;j<n;j++)
+			{
+				printf("%d\t",G[i][j]);
+			}
+			printf("\n");
 		}
-		printf("\n");
 	}
-}
-else
+	else
 		printf("\nstuck... Can not find the solution.\n");
 
 	return 0;
